@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+body {
+    background-size: 100% 100%;
+    height: 100vh;
+    font-family: 'MedievalSharp', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: brown;
+    text-shadow: 4px 5px 22px #000;
+}
+body p {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+.container p {
+    background-color: black;
+    color: blanchedalmond;
+    flex-direction: column;
+    width: 510px;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+.container{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 80%;
+    margin: 20px auto;
+}
+.container img {
+    height: 190px;
+    width: 190px;
+    border: 2px solid;
+    size: 50px;
+    border-radius: 20px;
+    border-color:red;
+}
+li {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    width: 30%;
+    background: black;
+    margin: 0 0.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border:solid 2px darkred;
+    border-radius: 10px;
+}
+li :hover {
+      border-color: rgba(235, 0, 0, 0.281)
+}
+li a {
+    text-decoration: none;
+}
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color:brown;
+}
+h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+    color:brown;
+}
+@media (max-width: 700px){
+    .container {
+        display: flex !important; 
+        flex-direction: column !important;
+        align-items:center;
+        width: 100% !important;
+        height: 100% !important;
+    }
+ .container li {
+    
+    display: flex !important; 
+    align-items: center !important;
+    width: 100% !important;
+    flex-direction: column !important;
+    size:45px !important
+ }
+}

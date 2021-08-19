@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+body {
+    background-size: 100% 100%;
+    height: 100vh;
+    font-family: 'MedievalSharp', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: brown;
+    text-shadow: 4px 5px 22px #000;
+}
+body p {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.5;
+}
+.container p {
+    background-color: black;
+    color: blanchedalmond;
+    flex-direction: column;
+    width: 510px;
+    border: solid 1px black;
+    border-radius: 20px;
+}
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background:black;
+    color:red;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 0 1px #930;
+}
+.botao:active {
+    box-shadow: 0 0 0 0 #930, inset 3px 3px 3px #930;
+    transform: translate3d(3px 3px);
+}
+@media (max-width: 700px){
+    .container {
+        display: flex !important; 
+        align-items: center;
+        width: 100% !important;
+    }
+
+}
